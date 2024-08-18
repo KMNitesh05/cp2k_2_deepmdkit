@@ -1,4 +1,4 @@
-# cp2k_2_deepmdkit
+# cp2k_2_deepmdkit (c2d)
 
 ## CP2K Output to DEEPMD-KIT Input Converter
 
