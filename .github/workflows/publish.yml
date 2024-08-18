@@ -25,7 +25,5 @@ jobs:
 
     - name: Publish package
       run: |
-        python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
-      env:
-        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+        echo "Manual publishing required. Run the following command locally:"
+        echo "python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*"
