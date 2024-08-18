@@ -10,7 +10,7 @@ Clone the repository and install the package with `pip`:
 
 ```bash
 git clone https://github.com/KMNitesh05/cp2k_2_deepmdkit.git 
-cd CP2K_to_DEEPMDKIT
+cd cp2k_2_deepmdkit
 pip install .
 ```
 
