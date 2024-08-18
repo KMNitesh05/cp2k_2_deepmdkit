@@ -1,6 +1,6 @@
 # cp2k_2_deepmdkit
 
-## CP2K Putput to DEEPMD-KIT Input Converter
+## CP2K Output to DEEPMD-KIT Input Converter
 
 This package allows for the conversion of CP2K output files to DEEPMD-KIT input files with ease. It includes several command-line tools prefixed with `c2d-` for different tasks.
 
