@@ -1,6 +1,6 @@
 # cp2k_2_deepmdkit (c2d)
 
-## CP2K Output to DEEPMD-KIT Input Converter
+## CP2K Output to DEEPMD-KIT Input Generator
 
 This package provides command-line tools to convert CP2K output files into DEEPMD-KIT input formats. The tools are prefixed with `c2d-` for tasks such as converting coordinates, forces, energies, and box dimensions.
 
