@@ -9,7 +9,7 @@ This package provides command-line tools to convert CP2K output files into DEEPM
 Clone the repository and install the package with `pip`:
 
 ```bash
-git clone https://github.com/yourusername/CP2K_to_DEEPMDKIT.git
+git clone https://github.com/KMNitesh05/cp2k_2_deepmdkit.git 
 cd CP2K_to_DEEPMDKIT
 pip install .
 ```
@@ -78,7 +78,7 @@ Please cite this package if you find it useful in your research:
   title={c2d: A Python Package to convert CP2K output to DEEPMD-KIT input},
   author={Nitesh Kumar},
   year={2024},
-  howpublished={\url{https://github.com/KMNitesh05/CP2K_to_DEEPMDKIT}},
+  howpublished={\url{https://github.com/KMNitesh05/cp2k_2_deepmdkit}},
   note={Washington State University, Pullman, WA, United States 99163}
 }
 ```
