@@ -74,7 +74,7 @@ Citation
 Please cite this package if you find it useful in your research:
 
 ```bash
-@misc{CP2K-to-DEEPMDKIT,
+@misc{c2d,
   title={c2d: A Python Package to convert CP2K output to DEEPMD-KIT input},
   author={Nitesh Kumar},
   year={2024},
