@@ -56,7 +56,7 @@ c2d-convert
 Enter the path to the raw file: box.raw
 ```
 
-Examples
+Examples: 
 Test the commands using example files in the examples directory:
 
 ```bash
