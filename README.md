@@ -66,11 +66,11 @@ c2d-force_energy examples/force_energy.raw
 c2d-convert examples/box.raw
 ```
 
-Contact
+Contact:
 Nitesh Kumar
 Email: niteshgoesactive@gmail.com
 
-Citation
+Citation:
 Please cite this package if you find it useful in your research:
 
 ```bash
