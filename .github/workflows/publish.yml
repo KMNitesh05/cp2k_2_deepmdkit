@@ -1,4 +1,4 @@
-name: cp2k_2_deepmdkit
+name: cp2k_2_deepmdkit 
 
 on:
   push:
