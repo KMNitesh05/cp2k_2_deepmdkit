@@ -10,6 +10,8 @@ Clone the repository and install the package with `pip`:
 
 ```bash
 Use : pip install cp2k-2-deepmdkit
+or
+pip install cp2k-2-deepmdkit==1.0.1
 
 or : 
 git clone https://github.com/KMNitesh05/cp2k_2_deepmdkit.git 
