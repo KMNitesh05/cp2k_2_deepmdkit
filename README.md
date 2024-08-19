@@ -29,6 +29,8 @@ Enter the number of rows: 5
 Enter the value for X: 19.00
 Enter the value for Y: 19.00
 Enter the value for Z: 19.00
+
+Here, X, Y and Z are the simulation box dimensions, with units in (Å). 
 ```
 
 2. Generate coord.raw file:
