@@ -12,7 +12,6 @@ Clone the repository and install the package with `pip`:
 Use : pip install cp2k-2-deepmdkit==1.0.0
 
 or : 
-
 git clone https://github.com/KMNitesh05/cp2k_2_deepmdkit.git 
 cd cp2k_2_deepmdkit
 pip install .
