@@ -1,6 +1,10 @@
-name: c2d package 
+name: cp2k_2_deepmdkit
 
-on: [push, pull_request]
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  pull_request:
 
 jobs:
   build:
@@ -17,13 +21,17 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install setuptools wheel twine
+        pip install setuptools wheel
 
     - name: Build package
       run: |
         python setup.py sdist bdist_wheel
 
-    - name: Publish package
+    - name: Publish to PyPI
+      if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+      env:
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
       run: |
-        echo "Manual publishing required. Run the following command locally:"
-        echo "python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*"
+        pip install twine
+        twine upload dist/*
